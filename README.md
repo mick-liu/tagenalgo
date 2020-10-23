@@ -24,7 +24,7 @@ Once done the preparation, we can start to train the algorithm!
 
 Import required module.
 ```python
-import tagenalgo as tg
+from tagenalgo import TAGenAlgo
 from sklearn.model_selection import train_test_split
 ```
 Train the model.
@@ -33,7 +33,7 @@ Train the model.
 X_train, X_test = train_test_split(hist_data, shuffle=False)
 
 # Input the "genetic algo required" parameters and "name of strategy".
-model = tg.TAGenAlgo(X_train, 3, 100, 0.9, 0, 'single', 'rsi')
+model = TAGenAlgo(X_train, 3, 100, 0.9, 0, 'single', 'rsi')
 
 # Initialize the model by setting the range of indicators. 
 _, init_pop = model.ta_initialize(indicator_set={'rsi': {
