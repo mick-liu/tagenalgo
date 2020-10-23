@@ -1,0 +1,77 @@
+```latex
+@article{Fayek2013MultiobjectiveOO,
+  title={Multi-objective Optimization of Technical Stock Market Indicators using GAs},
+  author={M. B. Fayek and Hatem M. El-Boghdadi and S. Omran},
+  journal={International Journal of Computer Applications},
+  year={2013},
+  volume={68},
+  pages={41-48}
+}
+
+@inproceedings{FernndezBlanco2008TechnicalMI,
+  title={Technical market indicators optimization using evolutionary algorithms},
+  author={P. Fern{\'a}ndez-Blanco and Diego J. Bodas-Sagi and Francisco J. Soltero and J. Hidalgo},
+  booktitle={GECCO '08},
+  year={2008}
+}
+
+@inproceedings{Khadka2010ANA,
+  title={A New Approach for Time Series Forecasting based on Genetic Algorithm},
+  author={M. Khadka and Benjamin Popp and K. M. George and N. Park},
+  booktitle={CAINE},
+  year={2010}
+}
+
+@misc{zhang2020gamssr,
+      title={GA-MSSR: Genetic Algorithm Maximizing Sharpe and Sterling Ratio Method for RoboTrading}, 
+      author={Zezheng Zhang and Matloob Khushi},
+      year={2020},
+      eprint={2008.09471},
+      archivePrefix={arXiv},
+      primaryClass={q-fin.ST}
+}
+
+@inproceedings{inproceedings,
+author = {Simões, Adriano and Neves, Rui and Horta, Nuno},
+year = {2010},
+month = {01},
+pages = {306-310},
+title = {An Innovative GA Optimized Investment Strategy based on a New Technical Indicator using Multiple MAS.},
+journal = {ICEC 2010 - Proceedings of the International Conference on Evolutionary Computation}
+}
+
+@book{Koza92,
+  added-at = {2008-11-22T15:57:31.000+0100},
+  address = {Cambridge, MA, USA},
+  author = {Koza, John R.},
+  biburl = {https://www.bibsonomy.org/bibtex/27573e564bc5369e1a853e74b3ac62607/emanuel},
+  interhash = {e8307fb6cf4ee27405142256d98c4c9e},
+  intrahash = {7573e564bc5369e1a853e74b3ac62607},
+  isbn = {0-262-11170-5},
+  keywords = {enumerative_ip gp induction inductive_programming program_evolution program_synthesis},
+  publisher = {MIT Press},
+  timestamp = {2008-11-22T15:57:31.000+0100},
+  title = {Genetic Programming: {O}n the Programming of Computers by Means of Natural Selection},
+  year = 1992
+}
+
+@book{book,
+author = {Poli, Riccardo and Langdon, William and Mcphee, Nicholas},
+year = {2008},
+month = {01},
+pages = {},
+title = {A Field Guide to Genetic Programming},
+isbn = {978-1-4092-0073-4}
+}
+
+@article{pedregosa2011scikit,
+  title={Scikit-learn: Machine learning in Python},
+  author={Pedregosa, Fabian and Varoquaux, Ga{\"e}l and Gramfort, Alexandre and Michel, Vincent and Thirion, Bertrand and Grisel, Olivier and Blondel, Mathieu and Prettenhofer, Peter and Weiss, Ron and Dubourg, Vincent and others},
+  journal={the Journal of machine Learning research},
+  volume={12},
+  pages={2825--2830},
+  year={2011},
+  publisher={JMLR. org}
+}
+
+```
