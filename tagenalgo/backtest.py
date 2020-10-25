@@ -3,9 +3,7 @@ import pandas as pd
 import numpy as np
 import talib
 import itertools
-from datetime import datetime, timedelta
 import numba as nb
-from tqdm import tqdm
 
 
 @nb.njit
