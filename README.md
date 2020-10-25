@@ -33,7 +33,8 @@ Train the model.
 X_train, X_test = train_test_split(hist_data, shuffle=False)
 
 # Input the "genetic algo required" parameters and "name of strategy".
-model = TAGenAlgo(X_train, 3, 100, 0.9, 0, 'single', 'rsi')
+model = TAGenAlgo(price=X_train, generations=3, population_size=100, 
+                  crossover_prob=0.9, mutation_prob=0, method='single', strategy='rsi')
 
 # Initialize the model by setting the range of indicators. 
 _, init_pop = model.ta_initialize(indicator_set={'rsi': {
@@ -43,3 +44,8 @@ _, init_pop = model.ta_initialize(indicator_set={'rsi': {
     
 model.fit(init_pop)
 ```
+
+## Performance Improvement (Common RSI v.s. Modified RSI)
+RSI strategy usually takes 14 candlesticks as the time window to calculate the indicator value. When the indicator value goes down across the value of 30, it indicates as a buy signal. On the other hand, when it goes up across the value of 70, it represents a sell signal. In this case, the parameters set for RSI strategy is (14, 30, 70). 
+
+By implementing tagenalgo training, we got the modified parameters set of (10, 31, 88). Clearly, the performance of the modified RSI strategy is way better than common RSI strategy as we can see from the chart below.
