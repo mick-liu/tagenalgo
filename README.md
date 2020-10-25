@@ -46,7 +46,7 @@ model.fit(init_pop)
 ```
 
 ## Performance Improvement (Common RSI v.s. Modified RSI)
-RSI strategy usually takes 14 candlesticks as the time window to calculate the indicator value. When the indicator value goes down across the value of 30, it indicates as a buy signal. On the other hand, when it goes up across the value of 70, it represents a sell signal. In this case, the parameters set for RSI strategy is (14, 30, 70). 
+RSI strategy usually takes 14 candlesticks as the time window to calculate the index value. When the index value goes down across the value of 30, it indicates as a buy signal. On the other hand, when it goes up across the value of 70, it represents a sell signal. In this case, the parameters set for RSI strategy is (14, 30, 70). 
 
 By implementing tagenalgo training, we got the modified parameters set of (10, 31, 88). Clearly, the performance of the modified RSI strategy is way better than common RSI strategy as we can see from the chart below.
 
