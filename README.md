@@ -18,7 +18,7 @@ pip install tagenalgo
 As mentioned above, this algorithm is mainly used to optimize parameters of a strategy. In order to fullfill the requirement, you should do:
 
 * Prepare historical data.
-* Check if the parameters of the strategy you want to optimize is included in this software. If the software does not include the strategy, you could define the strategy by yourself. (See doc)
+* Check if the parameters of the strategy you want to optimize is included in this software. If the software does not include the strategy, you could define the strategy by yourself. (See backtest.py)
 
 Once done the preparation, we can start to train the algorithm!
 
