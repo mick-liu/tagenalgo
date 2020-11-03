@@ -1,6 +1,6 @@
 # Tagenalgo
 
-## Techanical Analysis & Genatic Algorithm
+## Technical Analysis & Genetic Algorithm
 The is a genetic algorithm incorporated with technical analysis indicator to optimize parameters of a strategy. The innovation of the algorithm is  that you can customize your strategy and use the algorithm to optimize the parameters included in the strategy. 
 
 This algorithm provides:
