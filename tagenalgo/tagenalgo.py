@@ -17,7 +17,7 @@ class TAGenAlgo(object):
 
     """A parameter optimization algorithm for trading strategy.
     
-    The is a genetic algorithm incorporated with technical analysis indicator 
+    This is a genetic algorithm incorporated with technical analysis indicator 
     to optimize parameters of a strategy. The innovation of the algorithm is 
     that you can customize your strategy and use the algorithm to optimize the 
     parameters included in the strategy. In general, this algorithm provides 
